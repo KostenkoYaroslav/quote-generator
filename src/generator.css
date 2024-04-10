@@ -1,0 +1,97 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #0000fe;
+  color: #030024;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.quote {
+  display: flex;
+
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.author {
+  text-align: end;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div {
+  display: flex;
+}
+
+.z52 {
+  border: 2px solid #0000fe;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #0000fe;
+  color: #fff;
+  padding: 5px 20px 5px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
